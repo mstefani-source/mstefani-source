@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @mstefani-source
+- 👀 I’m interested in OpenCV, DataScience, ML, RayTrace etc
+- 🌱I’m currently learning PGSQL because all of job positions i'm searched have this line in required field
+- 💞️ I’m looking to collaborate on any project. i am know nothing about how to code in company and looking for experiencee
+- 📫 How to reach me: ivanow.victor@live.ru
