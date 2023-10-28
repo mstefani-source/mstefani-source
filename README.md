@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @mstefani-source
-- 👀 I’m interested in OpenCV, DataScience, ML, RayTrace etc
-- 🌱I’m currently learning Java because all of projects i'm searched have this line in agenda field
-- 💞️ I’m looking to collaborate on any project and always glad to new experience
+- 👀 I want to grow into blockchain tecknology.
+- 🌱 Currently i have in my stack node.js and some Java
+- 💞️ I’m looking to collaborate on any project and always welcome to new experience
 - 📫 How to reach me: ivanow.victor@live.ru
