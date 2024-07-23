@@ -1,0 +1,6 @@
+za/vita/interfaces/implementations/HelloMessage.class
+za/vita/interfaces/implementations/SystemOutMessage.class
+za/vita/interfaces/MessageHandler.class
+za/vita/interfaces/MessageProvider.class
+za/vita/App.class
+za/vita/interfaces/implementations/Huyaider.class

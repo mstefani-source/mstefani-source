@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "zavita Rest",
+            "request": "launch",
+            "mainClass": "za.vita.App",
+            "vmArgs": [
+                
+            ]
+        }
+    ]
+}
