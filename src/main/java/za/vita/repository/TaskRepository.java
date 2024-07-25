@@ -3,10 +3,10 @@ package za.vita.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import za.vita.entity.Task;
+import za.vita.entity.ZaVitaTask;
 
 @Repository
-public interface TaskRepository extends JpaRepository<Task, Long>{
+public interface TaskRepository extends JpaRepository<ZaVitaTask, Long>{
 
     
 } 

@@ -1,7 +1,5 @@
 package za.vita.entity;
 
-import java.sql.Date;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -16,7 +14,7 @@ import lombok.Data;
 @Builder
 @AllArgsConstructor
 
-public class Task {
+public class ZaVitaTask {
     
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
