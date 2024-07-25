@@ -22,5 +22,5 @@ public class Task {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
     private String name;
-    private Date timeDate;
+    private String context;
 }
