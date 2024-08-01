@@ -15,8 +15,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
-
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PutMapping;
 
 
 @RestController
@@ -34,6 +36,17 @@ public class TaskController {
     @GetMapping (value = "/tasks")
     public ResponseEntity<List<ZaVitaTask>> getAllTask () {
         return new ResponseEntity<>(taskService.readAll(),HttpStatus.OK);
+    }
+
+    @PutMapping
+    public ResponseEntity<ZaVitaTask> update(@RequestBody ZaVitaTask taskToUpdate) {
+        return new ResponseEntity<>(taskService.update(taskToUpdate), HttpStatus.OK);
+    }
+
+    @DeleteMapping("/{id}")
+    public HttpStatus delete(@PathVariable Long id){
+        taskService.delete(id);
+        return HttpStatus.OK;
     }
     
 }
