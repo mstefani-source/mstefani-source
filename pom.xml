@@ -18,21 +18,29 @@
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>2.7.18</version>
   </parent>
-
   <build>
     <plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.7.0</version>
+				<configuration>
+					<source>${maven.compiler.source}</source>
+					<target>${maven.compiler.target}</target>
+					<annotationProcessorPaths>
+						<path>
+							<groupId>org.projectlombok</groupId>
+							<artifactId>lombok</artifactId>
+							<version>${lombok.version}</version>
+						</path>
+					</annotationProcessorPaths>
+				</configuration>
+			</plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.3.0</version>
         <configuration>
-          <annotationProcessorPaths>
-            <path>
-              <groupId>org.projectlombok</groupId>
-              <artifactId>lombok</artifactId>
-              <version>1.18.34</version>
-            </path>
-          </annotationProcessorPaths>
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
@@ -49,6 +57,11 @@
     </plugins>
   </build>
   <dependencies>
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>9.4.1208</version>
+  </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
