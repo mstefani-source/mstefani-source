@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @mstefani-source
 - 👀 Open to Work.
-- 🌱 Currently i have in my stack node.js and Java
+- 🌱 Currently using Java
 - 💞️ I’m looking to collaborate on any project and always welcome to new experience
 - 📫 How to reach me: ivanow.victor@live.ru
