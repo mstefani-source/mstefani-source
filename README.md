@@ -2,4 +2,4 @@
 - 👀 Open to Work.
 - 🌱 Currently using Java
 - 💞️ I’m looking to collaborate on any project and always welcome to new experience
-- 📫 How to reach me: ivanow.victor@live.ru
+- 📫 How to reach me: ivanov.victorw@gmail.com
